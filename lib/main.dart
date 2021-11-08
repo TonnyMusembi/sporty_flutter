@@ -164,6 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
                 ),
+
               ],
             ),
           ),
@@ -188,7 +189,6 @@ class _MyHomePageState extends State<MyHomePage> {
     label: 'Yesterday',
       //backgroundColor: Colors.purple,
     ),
-
     ],
      //currentIndex: _selectedIndex,
     selectedItemColor: Colors.amber[800],
@@ -197,7 +197,6 @@ class _MyHomePageState extends State<MyHomePage> {
     ));
   }
   }
-
 
 
 
