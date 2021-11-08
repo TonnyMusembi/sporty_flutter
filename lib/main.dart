@@ -115,7 +115,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: [
                       PremierLeague(),
-                      LaLiga(),],
+                      LaLiga(),
+                      UEFA(),
+                    ],
                   ),
                 ),
                 Padding(
@@ -152,6 +154,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       PremierLeague(),
                       LaLiga(),
+                      UEFA()
                     ],
                   ),
                 ),
@@ -161,10 +164,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       PremierLeague(),
                       LaLiga(),
+                      UEFA(),
                     ],
                   ),
                 ),
-
               ],
             ),
           ),
