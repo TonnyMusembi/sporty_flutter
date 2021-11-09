@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:http/http.dart'as http;
@@ -7,7 +8,8 @@ import 'package:sport/widgets/UEFA.dart';
 import 'package:sport/widgets/PremierLeague.dart';
 
 
-import 'dart:convert' as convert;
+//import 'dart:convert' as convert;
+
 
 import 'dart:ui';
 
@@ -33,14 +35,17 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
   final String title;
+
   @override
   State<MyHomePage> createState() => _MyHomePageState();
+
 }
+
 class _MyHomePageState extends State<MyHomePage> {
   Future predictions () async {
     final response = await http
         .get(Uri.parse('http://35.240.46.135:8888/v1/endpoint?predictions=1'));
-    Map<String, dynamic> json;
+    Map<String, dynamic> jsonresponse;
     // check ok response & send default on failure
     if (response.statusCode == 200) {
       // If server returns an OK response, parse the JSON
@@ -98,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body:SingleChildScrollView(
           child: SizedBox(
-            height: 2000,
+            height: 1000,
             child: TabBarView(
               children: [
                 Padding(
@@ -107,6 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       PremierLeague(),
                       LaLiga(),
+                      UEFA(),
                     ],
                   ),
                 ),
@@ -145,6 +151,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       PremierLeague(),
                       LaLiga(),
                       UEFA(),
+
                     ],
                   ),
                 ),
@@ -179,27 +186,30 @@ class _MyHomePageState extends State<MyHomePage> {
     items: const <BottomNavigationBarItem>[
     BottomNavigationBarItem(
     icon: Icon(Icons.home),
-    label: 'Today',
+    label: 'Yesterday',
     //backgroundColor: Colors.blue,
     ),
     BottomNavigationBarItem(
     icon: Icon(Icons.calendar_today),
-    label:'Tomorrow',
+    label:'Today',
     //backgroundColor: Colors.green,
     ),
     BottomNavigationBarItem(
     icon: Icon(Icons.money),
-    label: 'Yesterday',
+    label: 'Tomorrow',
       //backgroundColor: Colors.purple,
     ),
     ],
      //currentIndex: _selectedIndex,
     selectedItemColor: Colors.amber[800],
-     //onTap: _onItemTapped,
+      //onTap: _onItemTapped,
     ),
     ));
   }
   }
+
+
+
 
 
 

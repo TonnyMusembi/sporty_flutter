@@ -52,7 +52,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         "Real Madrid",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -68,7 +68,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         " 0:0 ",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -84,7 +84,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         "Barca",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -120,7 +120,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         "Athletico",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -136,7 +136,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         " - ",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -152,7 +152,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         "Sevilla",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -192,7 +192,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         "Valencia",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -208,7 +208,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         " - ",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -224,7 +224,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         "Levante",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -264,7 +264,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         "Getafe",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -280,7 +280,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         " - ",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -296,7 +296,7 @@ class LaLiga extends StatelessWidget {
                       Text(
                         "Sociedad",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),

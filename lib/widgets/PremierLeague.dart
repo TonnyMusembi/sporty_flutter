@@ -34,14 +34,6 @@ class PremierLeague extends StatelessWidget {
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                       "24'",
-                      style: TextStyle(
-                        color: Colors.amber,
-                        fontSize: 17,
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
                   ],
                 ),
                 Container(
@@ -66,7 +58,7 @@ class PremierLeague extends StatelessWidget {
                       Text(
                         " 0:1 ",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -82,7 +74,7 @@ class PremierLeague extends StatelessWidget {
                       Text(
                         "Arsenal",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -93,7 +85,7 @@ class PremierLeague extends StatelessWidget {
                 Icon(
                   Icons.notifications_none_rounded,
                   size: 26,
-                  color: Colors.white60,
+                  color: Colors.black,
                 ),
               ],
             ),
@@ -118,7 +110,7 @@ class PremierLeague extends StatelessWidget {
                       Text(
                         "Liverpool",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -134,7 +126,7 @@ class PremierLeague extends StatelessWidget {
                       Text(
                         " - ",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -150,7 +142,7 @@ class PremierLeague extends StatelessWidget {
                       Text(
                         "Chelsea",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -190,23 +182,23 @@ class PremierLeague extends StatelessWidget {
                       Text(
                         "Man Utd",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
                       Container(
-                        padding: EdgeInsets.only(left: 5, right: 5, ),
+                        padding: const EdgeInsets.only(left: 5, right: 5, ),
                         child: Image.asset(
                           "assets/images/manutd_logo.png",
                           height: 38,
                           width: 38,
                         ),
                       ),
-                      Text(
+                      const Text(
                         " - ",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -222,7 +214,7 @@ class PremierLeague extends StatelessWidget {
                       Text(
                         "Man City",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -232,7 +224,7 @@ class PremierLeague extends StatelessWidget {
                 ),
                 Icon(
                   Icons.notifications_none_rounded,
-                  size: 26,
+                  size: 10,
                   color: Colors.white60,
                 ),
               ],
@@ -243,3 +235,6 @@ class PremierLeague extends StatelessWidget {
     );
   }
 }
+
+
+

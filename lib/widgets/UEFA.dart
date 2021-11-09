@@ -83,7 +83,7 @@ class UEFA extends StatelessWidget {
                       Text(
                         "Arsenal",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -94,7 +94,7 @@ class UEFA extends StatelessWidget {
                 Icon(
                   Icons.notifications_none_rounded,
                   size: 26,
-                  color: Colors.white60,
+                  color: Colors.black,
                 ),
               ],
             ),
@@ -119,7 +119,7 @@ class UEFA extends StatelessWidget {
                       Text(
                         "Liverpool",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -135,7 +135,7 @@ class UEFA extends StatelessWidget {
                       Text(
                         " - ",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -151,7 +151,7 @@ class UEFA extends StatelessWidget {
                       Text(
                         "Chelsea",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -161,7 +161,7 @@ class UEFA extends StatelessWidget {
                 ),
                 Icon(
                   Icons.notifications,
-                  size: 26,
+                  size: 10,
                   color: Colors.amber,
                 ),
               ],
@@ -191,7 +191,7 @@ class UEFA extends StatelessWidget {
                       Text(
                         "Man Utd",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 17,
                           fontWeight: FontWeight.w600,
                         ),
@@ -234,7 +234,7 @@ class UEFA extends StatelessWidget {
                 ),
                 Icon(
                   Icons.notifications_none_rounded,
-                  size: 26,
+                  size: 10,
                   color: Colors.white60,
                 ),
               ],
