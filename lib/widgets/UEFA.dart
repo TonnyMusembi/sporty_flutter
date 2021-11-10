@@ -221,7 +221,6 @@ class UEFA extends StatelessWidget {
                         ),
                       ),
                       Text(
-
                         "Man City",
                         style: TextStyle(
                           color: Colors.black,

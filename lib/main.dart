@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -7,9 +9,10 @@ import 'package:sport/widgets/LaLiga.dart';
 import 'package:sport/widgets/UEFA.dart';
 import 'package:sport/widgets/PremierLeague.dart';
 
+//import 'package:sport/models/predictions.dart';
 
-//import 'dart:convert' as convert;
 
+import 'dart:convert';
 
 import 'dart:ui';
 
@@ -38,18 +41,18 @@ class MyHomePage extends StatefulWidget {
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
-
 }
-
 class _MyHomePageState extends State<MyHomePage> {
-  Future predictions () async {
+
+  Future Predictions () async {
     final response = await http
         .get(Uri.parse('http://35.240.46.135:8888/v1/endpoint?predictions=1'));
     Map<String, dynamic> jsonresponse;
-    // check ok response & send default on failure
+        //check ok response & send default on failure
     if (response.statusCode == 200) {
       // If server returns an OK response, parse the JSON
-      //return predictions.fromJson(json.decode(response.body));
+      //
+      // return Predictions.fromJson(json.decode(response.body));
     }
     else {
       // If the server did not return a 200 OK response,
